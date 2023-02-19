@@ -1,0 +1,18 @@
+SMAP
+updateAccountWithEmail_jsp.java
+JSP
+*S JSP
+*F
++ 0 updateAccountWithEmail.jsp
+updateAccountWithEmail.jsp
++ 1 header_loginedUser.jsp
+header_loginedUser.jsp
++ 2 Footer.jsp
+Footer.jsp
+*L
+5,13:50
+5#1,26:63
+17#0,19:88
+5#2,17:107
+35#0,5:123
+*E

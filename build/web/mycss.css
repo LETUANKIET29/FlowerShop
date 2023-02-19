@@ -1,0 +1,102 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 9, 2022, 12:41:17 AM
+    Author     : tuank
+*/
+
+*{ 
+    box-sizing:border-box;
+}
+html{ font-family: arial;
+      font-size: 12px; 
+}
+
+header,section,footer,nav,ul { float: left;width: 100%;}
+
+header, nav, footer{ height: 100px;
+                     background-color: #e1f5eb;
+}
+section { height: auto;}
+
+header li{width:10%; 
+          list-style-type: none;
+          text-align: center;
+          float:left;
+}
+header a { color: #006666;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+header p {
+    color: #006666;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+body a{
+    color: #006666;
+    text-decoration: none;
+}
+
+table, th, td {
+  border: 1px solid #cccccc;
+}
+
+header li:last-child { width:30%; float:right;}
+
+#logo { width: 90px; height: 90px; }
+
+.form table{width:50%;}
+
+.product {width:20%; height: auto; float:left; margin: 1%; border: 1px solid #cccccc; border-radius: 10px}
+
+.order { border: 1px solid #cccccc; width:100%; margin: 1%;}
+
+.order tr:first-child{ width:100%; background-color:#e1eee7 ; color: #006666;}
+
+.order td{ color:black; width: 15%;}
+
+.planting { width:100px; height: auto;}
+
+.shopping { width:70%;}
+
+.login {
+    width: 20%; height: auto;
+    margin-left: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.login input{
+    width: 178%; height: 30px;
+    padding: 5%;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.regis{
+    width: 20%; height: auto;
+    border: 3px solid #f1f1f1;
+    margin-left: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.regis input{
+    width: 200%; height: 30px;
+    padding: 5%;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
